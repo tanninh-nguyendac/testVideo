@@ -1,0 +1,29 @@
+{
+    "name": "hoc_npm",
+    "version": "1.0.0",
+    "description": "Day la du an npm dau tien",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --config webpack.config.js --mode production",
+        "dev": "webpack --config webpack.config.js --mode development",
+        "watch": "webpack --config webpack.config.js --mode development --watch --progress"
+
+    },
+    "keywords": [
+        "hoc",
+        "npm",
+        "fullstack",
+        "4"
+    ],
+    "author": "ninhndt",
+    "license": "ISC",
+    "dependencies": {
+        "jquery": "^3.5.1",
+        "webpack": "^4.43.0"
+    },
+    "devDependencies": {
+        "lodash": "^4.17.15",
+        "webpack-cli": "^3.3.11"
+    }
+}
